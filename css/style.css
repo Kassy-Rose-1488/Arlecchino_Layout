@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    transition: .4s;
+    border: none;
+    outline: none;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background: linear-gradient(50deg,blue,red,blue,red);
+}
+
+.banner img {
+    width: 100%;
+}
+
+#hero {
+    padding: 30px 0 20px 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#collagen {
+    padding: 20px 0;
+}
+
+.collagen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.collagen-block {
+    width: 316px;
+    height: 506px;
+    border-radius: 10px;
+    box-shadow: 0 0 1px lavenderblush;
+    background: white;
+    margin-bottom: 30px;
+}
+
+.collagen-block img {
+    width: 290px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.collagen-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.collagen-block h2 {
+    padding: 10px 0 15px 0;
+    color: black;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.collagen-block h2 span {
+    color: lightsteelblue;
+    font-size: 20px;
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
+.collagen-block h3 {
+    text-align: center;
+    width: 296px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.collagen-block h3 span {
+    color: lightsteelblue;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.collagen-title {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.collagen-title ion-icon {
+    color: yellow;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.collagen-title h4 {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.collagen-title h4 span {
+    color: lightsteelblue;
+}
+
+.collagen-block button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 75px;
+    background: rebeccapurple;
+    border-radius: 5px;
+}
+
+.collagen-block button:hover {
+    background: black;
+    /*transform: scale(1.1);*/
+}
+
+.collagen-block button ion-icon {
+    margin-right: 10px;
+}
+
+
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.images img {
+    width: 238px;
+    height: 350px;
+    border-radius: 26px;
+    object-fit: cover;
+}
+
+#blocks {
+    padding: 50px 0;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#helping {
+    background: url("https://images.samsung.com/is/image/samsung/p5/ru/support/imei-checking/4-mobile.jpg?$ORIGIN_JPG$") no-repeat center/cover;
+    min-height: 120vh;
+    object-fit: contain;
+}
+
+#help-block {
+    padding: 30px 0;
+}
+
+.help-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#computers {
+    background: url("https://images.samsung.com/is/image/samsung/assets/ca/offer/ca-publishing-assets/p-assets/April_14_S95C_OLED_FRONT_MO_720x1280.jpg?$720_1280_JPG$") no-repeat center/cover;
+    min-height: 120vh;
+    object-fit: contain;
+}
+
+.computers {
+    padding: 30px 0;
+}
+
+#whatching {
+    background: url("https://images.samsung.com/is/image/samsung/assets/nl/explore/entertainment/entertainment-with-a-wow-effect/Explore_Topic_720x452_KV.png") no-repeat center/cover;
+    min-height: 100vh;
+}
+
+#computers-block {
+    padding: 30px 0;
+}
+
+.computers-block-general {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#store {
+    background: url("https://samsungstore.kg/files/media/12/12803.jpg") no-repeat center/cover;
+    min-height: 100vh;
+}
+
+#store-blocks {
+    padding: 30px 0;
+}
+
+.store-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
